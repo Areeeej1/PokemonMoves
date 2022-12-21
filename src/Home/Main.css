@@ -1,0 +1,67 @@
+image{
+    width:200px;
+    height: 200px;
+}
+button{
+    font-size:150%;
+    cursor:pointer;
+    border-radius: 20%;
+    border-width: 0.1px;
+}
+button:hover{
+    background-color: rgb(237, 237, 159);
+}
+
+
+.selectOpt{
+    padding-top: 10%;
+    text-align: center;
+
+}
+.options{
+    border-radius: 20%;
+    border-width: 0.1px;
+    text-align: center;
+     width: fit-content;
+     font-size: 300%;
+  }
+  select:focus{
+    background-color: rgb(237, 237, 159);
+  }
+  @media (max-width:260px) {
+    option{
+        font-size: 10%;
+    }
+    button{
+        font-size: 50%;
+    }
+    .modaldiv{
+        text-align: left;
+        font-size: 10% ;
+    }
+    image{
+        
+        width:10px;
+        height: 10px;
+    }
+
+  }
+  @media (max-width:700px)and (min-width:260px) {
+    .modaldiv{
+       
+        font-size: 50% ;
+    }
+    image{
+        width:50px;
+        height: 50px;
+    }
+    .options{
+        font-size: 100%; 
+    }
+    button{
+        font-size: 10px; 
+    }
+    option{
+        font-size: 50%;
+    }
+  }
